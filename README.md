@@ -1,2 +1,2 @@
 # MVC5-App
-Veprime CRUD mbi dya tabela, duke perdorur Asp.NET MVC 5
+Veprime CRUD mbi dy tabela, duke perdorur Asp.NET MVC 5
