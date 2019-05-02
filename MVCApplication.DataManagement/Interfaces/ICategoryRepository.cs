@@ -7,5 +7,7 @@ namespace MVCApplication.DataManagement.Interfaces
     {
         IEnumerable<Categories> GetCategoriesOrderedByName();
         IEnumerable<Categories> GetTopCategories(int count);
+
+        void RemoveById(int id);
     }
 }

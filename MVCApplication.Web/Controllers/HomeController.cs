@@ -11,7 +11,7 @@ namespace MVCApplication.Web.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "ASP.NET MVC Application";
 
             return View();
         }
@@ -22,7 +22,7 @@ namespace MVCApplication.Web.Controllers
 
             return View();
         }
-        
+
 
     }
 }
