@@ -77,7 +77,7 @@ namespace MVCApplication.Web.Controllers
                             CategoryID = categoryDTOModel.CategoryID,
                             CategoryName = categoryDTOModel.CategoryName,
                             Description = categoryDTOModel.Description,
-                            Picture = categoryDTOModel.Picture
+                            Picture = categoryDTOModel.Picture  ?? new byte[] {}
                         });
 
                         dapperUnitOfWork.Commit();
@@ -134,7 +134,7 @@ namespace MVCApplication.Web.Controllers
                             CategoryID = categoryDTOModel.CategoryID,
                             CategoryName = categoryDTOModel.CategoryName,
                             Description = categoryDTOModel.Description,
-                            Picture = categoryDTOModel.Picture
+                            Picture = categoryDTOModel.Picture  ?? new byte[] {}
                         };
 
                         unitOfWork.CategoryRepository.Update(category);
